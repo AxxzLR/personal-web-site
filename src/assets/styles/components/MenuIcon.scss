@@ -1,0 +1,35 @@
+.MenuIcon__container {
+    display: inline-block;
+    height : 100%;
+    cursor : pointer;
+}
+
+.MenuIcon__bar--1,
+.MenuIcon__bar--2,
+.MenuIcon__bar--3 {
+    width              : 40px;
+    height             : 8px;
+    background-color   : #333;
+    // margin          : 6px 0;
+    transition         : 0.4s;
+    background-color   : white;
+    border-radius      : 4px;
+}
+
+.MenuIcon__bar--2 {
+    margin: 8px 0;
+}
+
+.MenuIcon__change .MenuIcon__bar--1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 14px);
+    transform        : rotate(-45deg) translate(-8px, 14px);
+}
+
+.MenuIcon__change .MenuIcon__bar--2 {
+    opacity: 0;
+}
+
+.MenuIcon__change .MenuIcon__bar--3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -14px);
+    transform        : rotate(45deg) translate(-8px, -14px);
+}

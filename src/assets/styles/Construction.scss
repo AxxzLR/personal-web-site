@@ -1,0 +1,35 @@
+.Construction {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.Construction__content {
+    width          : 100%;
+    max-width      : 400px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+}
+
+.Construction__content>* {
+    margin: 30px 0;
+}
+
+.Construction__Logo {
+    width: 60%;
+}
+
+.Construction__icon {
+    width: 40%;
+    color: white;
+}
+
+.Construction__text {
+    color     : white;
+    font-size : 30px;
+    width     : 0;
+    text-align: center;
+    overflow  : hidden;
+}

@@ -1,0 +1,33 @@
+@import '../variables.scss';
+
+.Notifications {
+    position: fixed;
+    bottom  : 15px;
+    right   : 15px;
+}
+
+.NotificationItem {
+    width           : 100%;
+    max-width       : 300px;
+    background-color: rgba($color: $overaly, $alpha: 1);
+    color           : white;
+    font-size       : 15px;
+    padding         : 10px;
+    border-radius   : 10px;
+    display         : flex;
+    flex-wrap       : nowrap;
+    justify-content : space-between;
+    align-items     : center;
+    margin-top      : 20px;
+}
+
+.NotificationItem__text {
+    word-wrap   : break-word;
+    white-space : pre-wrap;
+    margin-right: 10px;
+}
+
+.NotificationItem__close {
+    width : 20px;
+    cursor: pointer;
+}

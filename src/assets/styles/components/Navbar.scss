@@ -1,0 +1,131 @@
+@import '../variables.scss';
+
+.Navbar {
+    width           : 100%;
+    height          : 70px;
+    padding         : 15px;
+    background-color: rgba($color: $overaly, $alpha: 0.9);
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    position        : fixed;
+    z-index         : 999;
+}
+
+// .Navbar--showed {
+//     background-color: rgba($color: $overaly, $alpha: 0.8);
+//     transition      : 300ms;
+// }
+
+.Navbar__logo {
+    height: 100%;
+}
+
+.Navbar__menu-icon {
+    height: 100%;
+}
+
+.Navbar__menuitems,
+.Navbar__RS {
+    width           : 0;
+    height          : 100%;
+    display         : flex;
+    position        : absolute;
+    justify-content : center;
+    align-items     : center;
+    left            : 0;
+    overflow        : hidden;
+    transition      : 300ms;
+    background-color: rgba($color: $overaly, $alpha: 0.9);
+}
+
+.Navbar__menu-showed {
+    width: 100%;
+}
+
+.Navbar__menuitems {
+    top            : 70px;
+    justify-content: space-around;
+}
+
+.Navbar__RS {
+    top: 140px;
+}
+
+
+.Navbar__menuitem {
+    width          : 70px;
+    height         : 100%;
+    cursor         : pointer;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+}
+
+.Navbar__menuitem>img {
+    height    : 35px;
+    transition: 200ms;
+    overflow  : hidden;
+}
+
+.Navbar__menuitem>span {
+    // font-size  : 0;
+    font-size  : 12px;
+    overflow   : hidden;
+    transition : 200ms;
+    color      : white;
+    font-weight: bold;
+    text-align : center;
+    margin-top : 10px;
+}
+
+.Navbar__RS img {
+    margin: 0 15px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+.Navbar__RS>span {
+    padding-left: 10px;
+    margin-left : 10px;
+    font-size   : 20px;
+    cursor      : pointer;
+    color       : white;
+    border-left : 2px solid white;
+}
+
+//Responsive
+@media only screen and (min-width: 800px) {
+    .Navbar__menu-icon {
+        display: none;
+    }
+
+    .Navbar__menuitems,
+    .Navbar__RS {
+        background-color: transparent;
+        position        : initial;
+        width           : auto;
+    }
+
+    .Navbar__menuitem:hover img {
+        width : 0;
+        height: 0;
+    }
+
+    .Navbar__menuitem:hover span {
+        font-size: 14px;
+    }
+
+    .Navbar__RS img {
+        margin: 0 5px;
+        height: 20px;
+    }
+
+    .Navbar__menuitem>span {
+        font-size : 0;
+        margin-top: 0;
+    }
+}
