@@ -132,7 +132,7 @@ const content = {
                 title: { es: "Desarrollo web", en: "Web Development" },
                 icon: networkIcon,
                 text: {
-                    es: "Puedo programar plataformas eficientes y escalables, con procesos optimizados, que permitan al usuario tener su flujo e información siempre disponible.",
+                    es: "Programación de plataformas eficientes y escalables, con procesos optimizados, que permitan al usuario tener su flujo e información siempre disponible.",
                     en: "I can code efficient and scalable platforms with optimized process that could allow the user get their workflow and information always available."
                 },
                 titleDots: { es: "Herramientas de Desarrollo", en: "Development tools" },
@@ -168,7 +168,7 @@ const content = {
                 title: { es: "Diseño UI", en: "UI Design" },
                 icon: designIcon,
                 text: {
-                    es: 'Puedo construir interfaces limpias, con interacción fluida e intuitiva, utilizando "mobile first".',
+                    es: 'Construcción  interfaces limpias, con interacción fluida e intuitiva, utilizando "mobile first".',
                     en: 'I can build clear interfaces with fluid and intuitive interaction, using "mobile first".',
                 },
                 titleDots: { es: "Herramientas de Diseño", en: "Design tools" },
@@ -200,7 +200,7 @@ const content = {
     contact: {
         title: { es: "Contacto", en: "Contact" },
         text: {
-            es: "Estoy emocionado por saber sobre tu proyecto y espero tener la oportunidad de poder contribuir en él.",
+            es: "Estoy emocionado por saber sobre tu proyecto y espero tener la oportunidad de poder contribuir en el.",
             en: "I'm excited to know about your project and I hope get the opportunity to work on it."
         },
         form: {

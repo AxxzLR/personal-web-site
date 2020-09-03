@@ -17,6 +17,10 @@
     border-radius: 20px;
     color        : white;
     font-size    : 18px;
+
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
 }
 
 .skillitem__header {
@@ -88,7 +92,11 @@
 //Responsive
 @media only screen and (min-width: 800px) {
     .Skill__container {
-        width: 80%;
+        width : 80%;
+    }
+
+    .skillItem__container {
+        border: none
     }
 
     .skillitem__desc {
