@@ -29,7 +29,7 @@ const Home = ({ info }) => (
                         <p className="section__title">{info.about.title}</p>
                         <pre className="section__text" >{info.about.text}</pre>
                     </div>
-                    <img className="about__selfie" src={info.about.img} alt="me" />
+                    {/*<img className="about__selfie" src={info.about.img} alt="me" />*/}
                 </div>
             </div>
         </div>
